@@ -6,7 +6,7 @@ var router = require('./routes/sinch');
 //set up an app
 var app = express();
 //configure on what port express will create your app
-var port = process.env.PORT || 5500;
+var port = process.env.PORT || 8080;
 
 //congigure body parsing for the app, 
 //in this tutorial we will be doing json only
