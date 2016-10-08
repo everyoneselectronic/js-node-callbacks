@@ -2,7 +2,7 @@
   "name": "nodecallbacks",
   "version": "1.0.0",
   "engines": {
-    "node": "5.9.1"
+    "node": "5.0.0"
   },
   "description": "A simple conference calling app using Sinch, Node.js, and Express.",
   "main": "app.js",
@@ -17,6 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "express": "^4.14.0"
+    "express": "^4.13.3"
   }
 }
