@@ -1,32 +1,32 @@
 var express = require('express');
 var router = express.Router();
 
-var baseUrl = "#href[http://test.everyoneselectronic.co.uk/limmy/";
+// var baseUrl = "#href[http://test.everyoneselectronic.co.uk/limmy/";
 
-var svamlResponse = {
-    "Instructions": [],
-    "Action": {
-        // "name" : "Hangup"
-    }
-};
-tellTime();
+// var svamlResponse = {
+//     "Instructions": [],
+//     "Action": {
+//         // "name" : "Hangup"
+//     }
+// };
+// tellTime();
 
-// var svamlResponse =
-// 	{
-// 		instructions: [
-// 			{
-// 				"name": "Say",
-// 				"text": "Welcome to the hotline",
-// 				"locale": "en-US"
-// 			}
-// 		],
-// 		action: {
-// 			"name": "ConnectConf",
-// 			"conferenceId": "myconference1",
-// 			"cli": "",
-// 			"suppressCallbacks": true
-// 		}
-// 	}
+var svamlResponse =
+	{
+		instructions: [
+			{
+				"name": "Say",
+				"text": "Welcome to the hotline",
+				"locale": "en-US"
+			}
+		],
+		action: {
+			// "name": "ConnectConf",
+			// "conferenceId": "myconference1",
+			// "cli": "",
+			// "suppressCallbacks": true
+		}
+	}
 
 router.post('/', function (req, res, next) {
 	//we know its a ICE event since we supress callbacks for other events
