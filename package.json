@@ -2,17 +2,21 @@
   "name": "nodecallbacks",
   "version": "1.0.0",
   "engines": {
-    "node": "5.0.0"
+    "node": "5.9.1"
   },
   "description": "A simple conference calling app using Sinch, Node.js, and Express.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everyoneselectronic/js-node-callbacks"
+  },
   "author": "Christian Jensen and Sinch",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "express": "^4.13.3"
+    "express": "^4.14.0"
   }
 }
